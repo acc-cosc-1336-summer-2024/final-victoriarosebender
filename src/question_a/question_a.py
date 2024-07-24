@@ -1,6 +1,4 @@
 #write functions here, don't add input('') statements here!
-def test_config():
-    return True
 
 class Stock:
 
@@ -42,7 +40,6 @@ class Stock:
 
 
 
-Stock.stock_purchase_history()
 
 
 
