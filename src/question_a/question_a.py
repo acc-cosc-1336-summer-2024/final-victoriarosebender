@@ -36,7 +36,7 @@ class Stock:
             print(f"{stock.call_symbol()}      {stock.call_company_name()}")
 
 
-    # Step c: Loop through the dictionary to display the list
+    
     def __str__(self):
 
         return self.stock_purchase_history()
