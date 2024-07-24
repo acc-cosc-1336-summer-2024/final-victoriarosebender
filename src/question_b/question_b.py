@@ -7,8 +7,8 @@ class Stock:
         self.__symbol = symbol
         self.__company_name = company_name
 
-    def call_symbol(self):
+    def get_symbol(self):
         return self.__symbol
     
-    def call_company_name(self):
+    def get_company_name(self):
         return self.__company_name
