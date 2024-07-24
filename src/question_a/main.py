@@ -5,7 +5,7 @@ import question_a
 
 
 def menu():
-    print("Fianl Exam Menu \n 1-Display stock purchase history \n 2-Exit")
+    print("Final Exam Menu \n 1-Display stock purchase history \n 2-Exit")
     ##this is the menu
 
 
