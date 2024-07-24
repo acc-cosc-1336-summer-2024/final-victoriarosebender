@@ -13,7 +13,7 @@ class Stock:
     def call_company_name(self):
         return self.company_name
     
-    def stock_purchase_history():
+    def stock_purchase_history(self):
     # Create 5 variables
         stock1 = Stock("AAPL", "Apple Inc")
         stock2 = Stock("CAT", "Caterpillar")
@@ -29,13 +29,19 @@ class Stock:
         "EK": stock4,
         "MSFT": stock5 }
 
-    # Step c: Loop through the dictionary to display the list
-        
-        print("Symbol   Company Name")
+
         for symbol, stock in stock_dict.items():
 
             
             print(f"{stock.call_symbol()}      {stock.call_company_name()}")
+
+
+    # Step c: Loop through the dictionary to display the list
+    def __str__(self):
+
+        return self.stock_purchase_history()
+
+        
 
 
 
