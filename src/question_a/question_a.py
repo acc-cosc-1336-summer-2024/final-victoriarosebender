@@ -29,7 +29,7 @@ class Stock:
         "EK": stock4,
         "MSFT": stock5 }
 
-
+        print("Symbol     Company")
         for symbol, stock in stock_dict.items():
 
             
