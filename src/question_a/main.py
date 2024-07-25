@@ -14,9 +14,9 @@ def menu():
         
 def run_menu(choice):        
     if (choice == '1'):
-        stock = question_a.Stock("MSFT", "Microsoft") ###input values here
+        
 
-        stock.stock_purchase_history()
+        question_a.stock_purchase_history()
 
         
         

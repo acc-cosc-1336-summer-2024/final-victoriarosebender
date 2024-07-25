@@ -23,4 +23,4 @@ def display_multiplication_table(my_list):
             chunk = my_list[i:i + 10]
             print(chunk)
 
-display_multiplication_table(create_mulitiplication_table())
+
