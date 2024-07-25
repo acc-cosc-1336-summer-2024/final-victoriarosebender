@@ -1,26 +1,26 @@
 #write functions here, don't add input('') statements here!
 
 
-def create_mulitiplication_table(size):
-
-
+def create_mulitiplication_table(rows, cols):
     my_list = []
+    rows = int(rows)
+    cols = int(cols)
 
-    for i in range(1, size + 1):
-        for j in range(1, size + 1):
+    for i in range(1, rows + 1):
+        row_list = []
+        for j in range(1, cols + 1):
         # Calculate the product
             product = i * j
-        
-            my_list.append(product)
+            row_list.append(product)
+        my_list.append(row_list)
     # Print a newline character to move to the next row
     return my_list
 
 
 def display_multiplication_table(my_list):
-    chunk_counter = 0
     
-    for i in range(0, len(my_list), 10):
-            chunk = my_list[i:i + 10]
-            print(chunk)
+    for row in my_list:
+
+        print(row)
 
 
